@@ -4,3 +4,25 @@
     text-align: center;
     font-size: 100px;
 }
+body {
+  min-height: 100vh;
+  margin: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+}
+
+p {
+  font-size: clamp(1.2rem, 4vw, 2rem);
+  margin-bottom: 1rem;
+}
+
+img {
+  width: 80%;
+  max-width: 300px;
+  height: auto;
+}
